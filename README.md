@@ -3,13 +3,13 @@ A **C++** implementation of a 2-SAT solver. It constructs an **implication graph
 
 ### Overview
 2-SAT is a special case of **Boolean satisfiability** where each clause contains **exactly two literals**. The goal is to determine whether there exists a valid truth assignment that satisfies all clauses. An implication graph is constructed and then the strongly connected components (SCC) are found:
-+ If a variable and its negation are in the same SCC, return unsatisfiable.
++ If a variable and its negation are in the **same SCC**, return unsatisfiable.
 + Otherwise, return satisfiable.
 
 Finding Valid Assignments:
-+ If no contradictions exist, SCCs are processed in reverse topological order to assign values.
++ If no contradictions exist, SCCs are processed in **reverse topological order** to assign values.
   
-This problem can be efficiently solved in $`O(n + m)`$ time, where n is the number of variables and m is the number of clauses.
+This problem can be efficiently solved in $`O(n + m)`$ time, where $n$ is the number of **variables** and $m$ is the number of **clauses**.
 
 ### Example
 Starting with a **CNF** of exactly two literals in every clause.
