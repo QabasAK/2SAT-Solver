@@ -31,8 +31,8 @@ Afterwards, Tarjan's Algorithm is used to find SCCs. If a variable and its negat
 <p align="center">
    <img src="https://github.com/user-attachments/assets/c7b7d7c0-2884-4369-ac5a-49132461d8a6" alt="ImplicationGraph" width=40%>
  </p>
-
- This approach handles 2-SAT formula using a **single DFS pass**.
+ 
+ This approach handles 2-SAT formulae using a **single DFS pass**.
  
  ### TL;DR
  SAT is <3
