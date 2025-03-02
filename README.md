@@ -1,4 +1,4 @@
-# 2SAT Solver using Tarjan's Algorithm
+# 2SAT Solver using Tarjan's SCC Algorithm
 A **C++** implementation of a 2-SAT solver. It constructs an **implication graph** from the 2-SAT clauses and uses **Tarjan's Algorithm** to find Strongly Connected Components (SCCs).
 
 ### Overview
